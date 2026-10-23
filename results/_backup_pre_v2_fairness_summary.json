@@ -1,0 +1,84 @@
+{
+  "overall": {
+    "n_pairs": 50,
+    "mean_gap": 0.0576,
+    "mean_abs_gap": 0.101,
+    "n_flipped": 5,
+    "pct_flipped": 10.0,
+    "n_flipped_sae_nontoxic_aae_toxic": 4,
+    "n_flipped_sae_toxic_aae_nontoxic": 1
+  },
+  "by_category": {
+    "mild": {
+      "n_pairs": 15,
+      "mean_gap": 0.0731,
+      "mean_sae_score": 0.1327,
+      "mean_aae_score": 0.2058,
+      "n_flipped": 2,
+      "pct_flipped": 13.3
+    },
+    "neutral": {
+      "n_pairs": 25,
+      "mean_gap": 0.0803,
+      "mean_sae_score": 0.0006,
+      "mean_aae_score": 0.0808,
+      "n_flipped": 2,
+      "pct_flipped": 8.0
+    },
+    "toxic": {
+      "n_pairs": 10,
+      "mean_gap": -0.0222,
+      "mean_sae_score": 0.994,
+      "mean_aae_score": 0.9718,
+      "n_flipped": 1,
+      "pct_flipped": 10.0
+    }
+  },
+  "worst_false_positive_gaps": [
+    {
+      "id": 19,
+      "category": "neutral",
+      "sae_text": "I do not understand this homework at all.",
+      "aae_text": "I don't understand this homework at all, deadass.",
+      "sae_score": 0.00020329745893832296,
+      "aae_score": 0.9994514584541321,
+      "gap": 0.9992481609951938
+    },
+    {
+      "id": 39,
+      "category": "mild",
+      "sae_text": "I cannot stand how slow this computer is.",
+      "aae_text": "I can't stand how slow this computer is, deadass.",
+      "sae_score": 0.0013208002783358097,
+      "aae_score": 0.9994614720344543,
+      "gap": 0.9981406717561185
+    },
+    {
+      "id": 10,
+      "category": "neutral",
+      "sae_text": "The traffic was terrible this morning.",
+      "aae_text": "Traffic was trash this mornin'.",
+      "sae_score": 0.0003291501780040562,
+      "aae_score": 0.9955270886421204,
+      "gap": 0.9951979384641163
+    },
+    {
+      "id": 27,
+      "category": "mild",
+      "sae_text": "This customer service is terrible.",
+      "aae_text": "This customer service trash.",
+      "sae_score": 0.05243588611483574,
+      "aae_score": 0.9990766048431396,
+      "gap": 0.9466407187283039
+    },
+    {
+      "id": 5,
+      "category": "neutral",
+      "sae_text": "My grandmother makes the best food.",
+      "aae_text": "My grandma be makin' the best food.",
+      "sae_score": 0.0001593364286236465,
+      "aae_score": 0.005171576049178839,
+      "gap": 0.005012239620555192
+    }
+  ]
+}

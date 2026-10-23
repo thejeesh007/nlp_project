@@ -1,0 +1,40 @@
+{
+  "threshold_used_for_confusion_matrix": 0.4,
+  "default_threshold_0.5": {
+    "test_accuracy": 0.9654912787049819,
+    "test_precision": 0.8351097178683385,
+    "test_recall": 0.8227300802964793,
+    "test_f1": 0.8288736776602365
+  },
+  "tuned_threshold": {
+    "threshold": 0.4,
+    "test_accuracy": 0.9651148199272179,
+    "test_precision": 0.8311526479750779,
+    "test_recall": 0.823965410747375,
+    "test_f1": 0.8275434243176178
+  },
+  "confusion_matrix": [
+    [
+      14048,
+      271
+    ],
+    [
+      285,
+      1334
+    ]
+  ],
+  "class_weights": [
+    0.5565109848976135,
+    4.923917293548584
+  ],
+  "dialect_thresholds": {
+    "marked_threshold": 0.4,
+    "unmarked_threshold": 0.4,
+    "n_marked": 92,
+    "n_unmarked": 15845
+  },
+  "n_train": 127559,
+  "n_val": 15937,
+  "n_test": 15938,
+  "dialect_thresholds_calibrated_posthoc": true
+}

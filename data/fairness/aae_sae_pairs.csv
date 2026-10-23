@@ -1,0 +1,101 @@
+id,category,intended_toxic,sae_text,aae_text
+1,neutral,0,It is raining very hard today.,It be rainin' real hard today.
+2,neutral,0,She is always tired after work.,She be tired after work.
+3,neutral,0,I have not eaten anything since morning.,I ain't ate nothing since morning.
+4,neutral,0,I am going to the store later.,I'm finna go to the store later.
+5,neutral,0,My grandmother makes the best food.,My grandma be makin' the best food.
+6,neutral,0,We are going to the party tonight.,We finna pull up to the party tonight.
+7,neutral,0,He has been studying all week for the exam.,He been studyin' all week for the exam.
+8,neutral,0,My boss is always late to meetings.,My boss be late to meetings.
+9,neutral,0,They are really close friends.,"They be real close, no cap."
+10,neutral,0,The traffic was terrible this morning.,Traffic was trash this mornin'.
+11,neutral,0,I am trying to learn how to cook.,I'm tryna learn how to cook.
+12,neutral,0,It gets really cold in the winter here.,It get real cold out here in the winter.
+13,neutral,0,My brother and I do not agree about anything.,Me and my brother don't agree on nothing.
+14,neutral,0,I have been going to the gym every day.,I been hittin' the gym every day.
+15,neutral,0,This store never has what I need.,This store never got what I need.
+16,neutral,0,I did not hear about that.,I ain't hear about that.
+17,neutral,0,We are celebrating my mom's birthday this weekend.,We celebratin' my mama birthday this weekend.
+18,neutral,0,The bus is always late in the morning.,That bus always late in the mornin'.
+19,neutral,0,I do not understand this homework at all.,"I don't understand this homework at all, deadass."
+20,neutral,0,This is my favorite song right now.,"This my favorite song right now, on god."
+21,neutral,0,I did not sleep well last night.,I ain't sleep good last night.
+22,neutral,0,My cousins are visiting this weekend.,My cousins finna come through this weekend.
+23,neutral,0,I am looking for a new job.,I'm tryna find a new job.
+24,neutral,0,You did a great job on this project.,"You did that on this project, for real."
+25,neutral,0,We should hang out sometime soon.,We should link up soon.
+26,mild,0,This app keeps freezing and it is really annoying.,This app keep freezin' and it's really annoyin'.
+27,mild,0,This customer service is terrible.,This customer service trash.
+28,mild,0,I am so tired of dealing with this nonsense.,"I'm so tired of dealin' with this nonsense, on god."
+29,mild,0,I think you are wrong about this.,I think you trippin' about this.
+30,mild,0,That was a really smart decision.,That was a real smart decision.
+31,mild,0,Stop being so lazy and help me clean.,Stop bein' lazy and help me clean.
+32,mild,0,You are acting really childish right now.,You actin' real childish right now.
+33,mild,0,He never listens when I talk to him.,He never listen when I talk to him.
+34,mild,0,This neighborhood has gotten so loud lately.,This block been so loud lately.
+35,mild,0,Your cooking needs a lot of work.,Yo cookin' need a lot of work.
+36,mild,0,"Can you please hurry up, we are late.","Can you hurry up, we late, for real."
+37,mild,0,You are being really dramatic about this.,You bein' real extra about this.
+38,mild,0,This professor never explains anything clearly.,This professor never explain nothing clearly.
+39,mild,0,I cannot stand how slow this computer is.,"I can't stand how slow this computer is, deadass."
+40,mild,0,Quit being so difficult about this.,"Quit bein' so difficult about this, on god."
+41,toxic,1,"You are such an idiot, I cannot believe you did that.","You such an idiot, I can't believe you did that."
+42,toxic,1,"Shut up, nobody wants to hear what you have to say.","Shut up, ain't nobody wanna hear what you gotta say."
+43,toxic,1,You better watch your mouth before you regret it.,You better watch yo mouth before you regret it.
+44,toxic,1,"You are so stupid, it is honestly embarrassing.","You so stupid, it's honestly embarrassin'."
+45,toxic,1,"I do not respect you at all, you are pathetic.","I don't respect you at all, you pathetic."
+46,toxic,1,"Nobody even likes you, stop pretending they do.","Ain't nobody even like you, stop actin' like they do."
+47,toxic,1,Get out of my face before I lose my temper.,Get out my face before I lose my temper.
+48,toxic,1,You are a complete waste of everyone's time.,You a complete waste of everybody time.
+49,toxic,1,I am so sick of your pathetic excuses.,I'm so sick of yo pathetic excuses.
+50,toxic,1,Nobody asked for your stupid opinion.,Ain't nobody ask for yo stupid opinion.
+51,neutral,0,I am going to visit my aunt this weekend.,I'm finna go visit my auntie this weekend.
+52,neutral,0,This recipe takes way too long to make.,This recipe be takin' way too long to make.
+53,neutral,0,My dog will not stop barking at night.,"My dog be barkin' all night, won't stop."
+54,neutral,0,I need to do laundry before I run out of clothes.,I gotta do laundry before I run outta clothes.
+55,neutral,0,The line at the store was really long today.,The line at the store was real long today.
+56,neutral,0,I am saving up to buy a new car.,I'm finna save up for a new car.
+57,neutral,0,My phone keeps losing signal in this building.,My phone be losin' signal in this building.
+58,neutral,0,We are meeting up for lunch tomorrow.,We linkin' up for lunch tomorrow.
+59,neutral,0,I have to pick up my little brother from school.,I gotta pick up my little brother from school.
+60,neutral,0,This jacket is really warm for the winter.,This jacket real warm for the winter.
+61,neutral,0,I am not sure what to make for dinner tonight.,I don't know what I'm finna make for dinner tonight.
+62,neutral,0,My uncle always tells the same jokes at family gatherings.,My unc always tellin' the same jokes at family gatherings.
+63,neutral,0,The gym was really crowded after work today.,The gym was real crowded after work today.
+64,neutral,0,I am trying to fix my sleep schedule this week.,I'm tryna fix my sleep schedule this week.
+65,neutral,0,She is bringing snacks for the study group.,She bringin' snacks for the study group.
+66,mild,0,This printer never works when I actually need it.,This printer never work when I actually need it.
+67,mild,0,You need to text me back sooner next time.,"You need to text me back sooner next time, deadass."
+68,mild,0,This line is moving way too slowly.,"This line movin' real slow, on god."
+69,mild,0,I am getting really annoyed with this software.,I'm gettin' real annoyed with this software.
+70,mild,0,You are being unreasonable about this whole thing.,You bein' real unreasonable about this whole thing.
+71,mild,0,This landlord never fixes anything on time.,This landlord never fix nothing on time.
+72,mild,0,Stop procrastinating and finish your homework.,Quit procrastinatin' and finish yo homework.
+73,mild,0,I cannot believe how disorganized this event is.,"I can't believe how disorganized this event is, deadass."
+74,mild,0,You really need to work on your time management.,"You really need to work on yo time management, for real."
+75,mild,0,This coach keeps changing the practice schedule last minute.,This coach keep changin' the practice schedule last minute.
+76,mild,0,I am so annoyed this package got delayed again.,"I'm so annoyed this package got delayed again, on god."
+77,mild,0,You should really stop interrupting people when they talk.,You should really stop cuttin' people off when they talk.
+78,mild,0,This subscription price keeps going up for no reason.,This subscription price keep goin' up for no reason.
+79,mild,0,I am tired of this group project falling apart.,"I'm tired of this group project fallin' apart, deadass."
+80,mild,0,You need to stop making excuses and just show up on time.,"You need to stop makin' excuses and just show up on time, for real."
+81,toxic,1,You are honestly the most annoying person I know.,You honestly the most annoying person I know.
+82,toxic,1,"Nobody wants you here, just leave already.","Ain't nobody want you here, just leave already."
+83,toxic,1,"You never do anything right, it's pathetic.","You never do nothing right, it's pathetic."
+84,toxic,1,I am done listening to your ridiculous excuses.,I'm done listenin' to yo ridiculous excuses.
+85,toxic,1,You are a joke and everyone can see it.,You a joke and everybody can see it.
+86,toxic,1,"Stop talking, you have no idea what you are saying.","Stop talkin', you ain't got no idea what you sayin'."
+87,toxic,1,You embarrass yourself every time you open your mouth.,You embarrass yo self every time you open yo mouth.
+88,toxic,1,I cannot stand being around someone this pathetic.,I can't stand bein' around somebody this pathetic.
+89,toxic,1,You are worthless and you know it.,You worthless and you know it.
+90,toxic,1,Everyone is tired of your constant complaining.,Everybody tired of yo constant complainin'.
+91,toxic,1,You are a liar and nobody believes you anymore.,You a liar and ain't nobody believe you no more.
+92,toxic,1,"Get over yourself, you are not that important.","Get over yo self, you ain't that important."
+93,toxic,1,You always ruin everything for everyone else.,You always ruin everything for everybody else.
+94,toxic,1,"I am sick of your attitude, it is disgusting.","I'm sick of yo attitude, it's disgustin'."
+95,toxic,1,You never take responsibility for anything you do.,You never take responsibility for nothing you do.
+96,toxic,1,"Quit acting like you matter, nobody cares what you think.","Quit actin' like you matter, ain't nobody care what you think."
+97,toxic,1,"You are so fake, it is honestly sad.","You so fake, it's honestly sad."
+98,toxic,1,Nobody respects you and it shows.,Ain't nobody respect you and it shows.
+99,toxic,1,You are a coward and everyone knows it.,You a coward and everybody know it.
+100,toxic,1,"Stop lying, you never tell the truth about anything.","Stop lyin', you never tell the truth about nothing."

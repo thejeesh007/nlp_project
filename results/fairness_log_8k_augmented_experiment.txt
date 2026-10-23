@@ -1,0 +1,28 @@
+Loaded 50 AAE/SAE pairs ({'neutral': np.int64(25), 'mild': np.int64(15), 'toxic': np.int64(10)})
+Model: models/distilbert-toxicity-8k-augmented-experiment
+Using classification threshold: 0.6 (from results/metrics_8k_augmented_experiment.json tuned_threshold)
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 17264.61it/s]
+Saved per-pair results to results/fairness_results_8k_augmented_experiment.csv
+
+=== Overall ===
+  n_pairs: 50
+  mean_gap: 0.0507
+  mean_abs_gap: 0.065
+  n_flipped: 2
+  pct_flipped: 4.0
+  n_flipped_sae_nontoxic_aae_toxic: 2
+  n_flipped_sae_toxic_aae_nontoxic: 0
+
+=== By category ===
+  mild (n=15): mean gap=+0.0421  (SAE avg=0.134, AAE avg=0.176)  flipped=0/15 (0.0%)
+  neutral (n=25): mean gap=+0.0433  (SAE avg=0.003, AAE avg=0.046)  flipped=1/25 (4.0%)
+  toxic (n=10): mean gap=+0.0820  (SAE avg=0.810, AAE avg=0.892)  flipped=1/10 (10.0%)
+
+=== Largest AAE-scored-more-toxic gaps among non-toxic pairs ===
+  [neutral] gap=+0.993  SAE=0.003 'The traffic was terrible this morning.'  |  AAE=0.996 'Traffic was trash this mornin'.'
+  [mild] gap=+0.578  SAE=0.004 'I am so tired of dealing with this nonsense.'  |  AAE=0.582 'I'm so tired of dealin' with this nonsense, on god.'
+  [neutral] gap=+0.037  SAE=0.002 'The bus is always late in the morning.'  |  AAE=0.039 'That bus always late in the mornin'.'
+  [mild] gap=+0.027  SAE=0.001 'I cannot stand how slow this computer is.'  |  AAE=0.028 'I can't stand how slow this computer is, deadass.'
+  [mild] gap=+0.022  SAE=0.001 'Quit being so difficult about this.'  |  AAE=0.024 'Quit bein' so difficult about this, on god.'
+
+Saved summary to results/fairness_summary_8k_augmented_experiment.json

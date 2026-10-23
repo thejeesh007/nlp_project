@@ -1,0 +1,53 @@
+{
+  "threshold_used_for_confusion_matrix": 0.95,
+  "default_threshold_0.5": {
+    "test_accuracy": 0.9663069393901368,
+    "test_precision": 0.8327183271832719,
+    "test_recall": 0.8363187152563311,
+    "test_f1": 0.8345146379044684
+  },
+  "tuned_threshold": {
+    "threshold": 0.85,
+    "test_accuracy": 0.9708,
+    "test_precision": 0.8796,
+    "test_recall": 0.8404,
+    "test_f1": 0.8595
+  },
+  "confusion_matrix": [
+    [
+      14094,
+      225
+    ],
+    [
+      288,
+      1331
+    ]
+  ],
+  "class_weights": [
+    0.556326687335968,
+    4.938392639160156
+  ],
+  "dialect_thresholds": {
+    "marked_threshold": 0.85,
+    "unmarked_threshold": 0.85,
+    "n_marked": 21,
+    "n_unmarked": 3979
+  },
+  "n_train": 127934,
+  "n_val": 15937,
+  "n_test": 15938,
+  "calibration": {
+    "temperature": 1.98,
+    "ece_before": 0.0244,
+    "ece_after": 0.0059,
+    "val_nll_before": 0.1345,
+    "val_nll_after": 0.0901,
+    "test_roc_auc": 0.9883,
+    "train_accuracy_sample": 0.9943,
+    "train_sample_n": 3000,
+    "test_accuracy_raw": 0.9695,
+    "train_test_accuracy_gap": 0.0248,
+    "val_n": 4000,
+    "test_n": 4000
+  }
+}

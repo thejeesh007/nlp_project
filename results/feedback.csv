@@ -1,0 +1,3 @@
+timestamp,text,predicted_label,score,user_says_correct
+2026-09-10T14:33:16,you a fucking idiot,TOXIC,0.9999,yes
+2026-09-15T09:22:57,trash bag,NON-TOXIC,0.0031,yes

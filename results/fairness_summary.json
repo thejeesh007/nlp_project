@@ -1,0 +1,84 @@
+{
+  "overall": {
+    "n_pairs": 100,
+    "mean_gap": -0.0291,
+    "mean_abs_gap": 0.0296,
+    "n_flipped": 3,
+    "pct_flipped": 3.0,
+    "n_flipped_sae_nontoxic_aae_toxic": 0,
+    "n_flipped_sae_toxic_aae_nontoxic": 3
+  },
+  "by_category": {
+    "mild": {
+      "n_pairs": 30,
+      "mean_gap": -0.0212,
+      "mean_sae_score": 0.0546,
+      "mean_aae_score": 0.0335,
+      "n_flipped": 0,
+      "pct_flipped": 0.0
+    },
+    "neutral": {
+      "n_pairs": 40,
+      "mean_gap": -0.0006,
+      "mean_sae_score": 0.0013,
+      "mean_aae_score": 0.0007,
+      "n_flipped": 0,
+      "pct_flipped": 0.0
+    },
+    "toxic": {
+      "n_pairs": 30,
+      "mean_gap": -0.075,
+      "mean_sae_score": 0.6965,
+      "mean_aae_score": 0.6216,
+      "n_flipped": 3,
+      "pct_flipped": 10.0
+    }
+  },
+  "worst_false_positive_gaps": [
+    {
+      "id": 77,
+      "category": "mild",
+      "sae_text": "You should really stop interrupting people when they talk.",
+      "aae_text": "You should really stop cuttin' people off when they talk.",
+      "sae_score": 0.0016961302608251572,
+      "aae_score": 0.01914716698229313,
+      "gap": 0.017451036721467972
+    },
+    {
+      "id": 70,
+      "category": "mild",
+      "sae_text": "You are being unreasonable about this whole thing.",
+      "aae_text": "You bein' real unreasonable about this whole thing.",
+      "sae_score": 0.001442570355720818,
+      "aae_score": 0.0034005127381533384,
+      "gap": 0.0019579423824325204
+    },
+    {
+      "id": 54,
+      "category": "neutral",
+      "sae_text": "I need to do laundry before I run out of clothes.",
+      "aae_text": "I gotta do laundry before I run outta clothes.",
+      "sae_score": 0.008652345277369022,
+      "aae_score": 0.01034932304173708,
+      "gap": 0.0016969777643680573
+    },
+    {
+      "id": 69,
+      "category": "mild",
+      "sae_text": "I am getting really annoyed with this software.",
+      "aae_text": "I'm gettin' real annoyed with this software.",
+      "sae_score": 0.0004175013746134937,
+      "aae_score": 0.001343333744443953,
+      "gap": 0.0009258323698304594
+    },
+    {
+      "id": 80,
+      "category": "mild",
+      "sae_text": "You need to stop making excuses and just show up on time.",
+      "aae_text": "You need to stop makin' excuses and just show up on time, for real.",
+      "sae_score": 0.0009006130276247859,
+      "aae_score": 0.001479117083363235,
+      "gap": 0.0005785040557384491
+    }
+  ]
+}

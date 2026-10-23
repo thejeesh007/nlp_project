@@ -1,0 +1,33 @@
+{
+  "threshold_used_for_confusion_matrix": 0.9,
+  "default_threshold_0.5": {
+    "test_accuracy": 0.954,
+    "test_precision": 0.7745098039215687,
+    "test_recall": 0.7745098039215687,
+    "test_f1": 0.7745098039215687
+  },
+  "tuned_threshold": {
+    "threshold": 0.9,
+    "test_accuracy": 0.959,
+    "test_precision": 0.8210526315789474,
+    "test_recall": 0.7647058823529411,
+    "test_f1": 0.7918781725888325
+  },
+  "confusion_matrix": [
+    [
+      881,
+      17
+    ],
+    [
+      24,
+      78
+    ]
+  ],
+  "class_weights": [
+    0.5565604567527771,
+    4.92004919052124
+  ],
+  "n_train": 8000,
+  "n_val": 1000,
+  "n_test": 1000
+}

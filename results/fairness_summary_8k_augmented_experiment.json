@@ -1,0 +1,84 @@
+{
+  "overall": {
+    "n_pairs": 50,
+    "mean_gap": 0.0507,
+    "mean_abs_gap": 0.065,
+    "n_flipped": 2,
+    "pct_flipped": 4.0,
+    "n_flipped_sae_nontoxic_aae_toxic": 2,
+    "n_flipped_sae_toxic_aae_nontoxic": 0
+  },
+  "by_category": {
+    "mild": {
+      "n_pairs": 15,
+      "mean_gap": 0.0421,
+      "mean_sae_score": 0.1339,
+      "mean_aae_score": 0.176,
+      "n_flipped": 0,
+      "pct_flipped": 0.0
+    },
+    "neutral": {
+      "n_pairs": 25,
+      "mean_gap": 0.0433,
+      "mean_sae_score": 0.0029,
+      "mean_aae_score": 0.0462,
+      "n_flipped": 1,
+      "pct_flipped": 4.0
+    },
+    "toxic": {
+      "n_pairs": 10,
+      "mean_gap": 0.082,
+      "mean_sae_score": 0.81,
+      "mean_aae_score": 0.892,
+      "n_flipped": 1,
+      "pct_flipped": 10.0
+    }
+  },
+  "worst_false_positive_gaps": [
+    {
+      "id": 10,
+      "category": "neutral",
+      "sae_text": "The traffic was terrible this morning.",
+      "aae_text": "Traffic was trash this mornin'.",
+      "sae_score": 0.0025750247295945883,
+      "aae_score": 0.9955377578735352,
+      "gap": 0.9929627331439406
+    },
+    {
+      "id": 28,
+      "category": "mild",
+      "sae_text": "I am so tired of dealing with this nonsense.",
+      "aae_text": "I'm so tired of dealin' with this nonsense, on god.",
+      "sae_score": 0.003979764878749847,
+      "aae_score": 0.5822765827178955,
+      "gap": 0.5782968178391457
+    },
+    {
+      "id": 18,
+      "category": "neutral",
+      "sae_text": "The bus is always late in the morning.",
+      "aae_text": "That bus always late in the mornin'.",
+      "sae_score": 0.0023713030386716127,
+      "aae_score": 0.03944344073534012,
+      "gap": 0.037072137696668506
+    },
+    {
+      "id": 39,
+      "category": "mild",
+      "sae_text": "I cannot stand how slow this computer is.",
+      "aae_text": "I can't stand how slow this computer is, deadass.",
+      "sae_score": 0.0010046149836853147,
+      "aae_score": 0.02772332914173603,
+      "gap": 0.026718714158050716
+    },
+    {
+      "id": 40,
+      "category": "mild",
+      "sae_text": "Quit being so difficult about this.",
+      "aae_text": "Quit bein' so difficult about this, on god.",
+      "sae_score": 0.00147020083386451,
+      "aae_score": 0.023526009172201157,
+      "gap": 0.022055808338336647
+    }
+  ]
+}

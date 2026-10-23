@@ -1,0 +1,217 @@
+{
+  "n_examples": 15,
+  "top_k": 5,
+  "mean_overlap_ratio": 0.817,
+  "examples": [
+    {
+      "text": "all beaners back to taco land",
+      "human_rationale_tokens": [
+        "beaners"
+      ],
+      "top_5_shap_words": [
+        "back",
+        "beaners",
+        "land",
+        "taco",
+        "to"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "the muzzies are much worse than the third world they are a stone age fucking mess",
+      "human_rationale_tokens": [
+        "muzzies"
+      ],
+      "top_5_shap_words": [
+        "a",
+        "age",
+        "fucking",
+        "mess",
+        "the"
+      ],
+      "overlap_ratio": 0.0
+    },
+    {
+      "text": "i have been stoned and drunk enough to call white cops niggers but i have never been drunk enough to fuck a nigger",
+      "human_rationale_tokens": [
+        "nigger",
+        "niggers"
+      ],
+      "top_5_shap_words": [
+        "drunk",
+        "fuck",
+        "i",
+        "nigger",
+        "niggers"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "that probably what they paid millions of dollars for investing in their future influence weapons deals military support training protection goodwill for continued moslem hijrah invasion by migration lenience and special privileges in the handling of crimes involving moslems",
+      "human_rationale_tokens": [
+        "moslems"
+      ],
+      "top_5_shap_words": [
+        "involving",
+        "lenience",
+        "migration",
+        "moslems",
+        "probably"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "as a white male i am not allowed to call a nigger a nigger even though a nigger is allowed to act like a nigger and call me anything he she it wants to what stupid coward pc assholes whites have become",
+      "human_rationale_tokens": [
+        "nigger"
+      ],
+      "top_5_shap_words": [
+        "assholes",
+        "nigger",
+        "stupid"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "please revive i can not guarantee your guy watch out here doing space shit whilst i am making twitter bots who nut niggers",
+      "human_rationale_tokens": [
+        "niggers"
+      ],
+      "top_5_shap_words": [
+        "bots",
+        "niggers",
+        "nut",
+        "shit",
+        "twitter"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "well what other way does a corrupt dyke make sure that her pervvy pedo mates do not spend the rest of their sorry lives picking up soap",
+      "human_rationale_tokens": [
+        "dyke"
+      ],
+      "top_5_shap_words": [
+        "corrupt",
+        "does",
+        "dyke",
+        "pedo",
+        "pervvy"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "lol that for sure deborah only nigger days left",
+      "human_rationale_tokens": [
+        "nigger"
+      ],
+      "top_5_shap_words": [
+        "days",
+        "for",
+        "lol",
+        "nigger",
+        "that"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "in oakland one black dude will sit in the front of the bus and another will sit in the back they will then talk to one another over everyone heads laughing cussing an saying nigger every third word and the other passengers including the bus driver know not to interrupt",
+      "human_rationale_tokens": [
+        "nigger"
+      ],
+      "top_5_shap_words": [
+        "black",
+        "cussing",
+        "dude",
+        "nigger",
+        "passengers"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "according to the bougie niggers gouda is good cheese",
+      "human_rationale_tokens": [
+        "niggers"
+      ],
+      "top_5_shap_words": [
+        "according",
+        "bougie",
+        "cheese",
+        "good",
+        "niggers"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "male prostitution in pakistan is huge most pakis have had sex with other men pakistani muslim men also like to rape little boys who will stone these blasphemers who will discuss these islamic hypocrisies eh",
+      "human_rationale_tokens": [
+        "boys",
+        "little",
+        "pakis",
+        "rape"
+      ],
+      "top_5_shap_words": [
+        "blasphemers",
+        "hypocrisies",
+        "prostitution",
+        "rape",
+        "sex"
+      ],
+      "overlap_ratio": 0.25
+    },
+    {
+      "text": "fuck facebook staff and their muscum loving scum trash subhumans can you believe they disabled my account for days for stating muslims lie and deceive <percent> of the time are they fucking serious i guess the truth really hurts fuck islam and all piss dinking goat fucking sand monkeys",
+      "human_rationale_tokens": [
+        "monkeys",
+        "sand"
+      ],
+      "top_5_shap_words": [
+        "fuck",
+        "fucking",
+        "trash"
+      ],
+      "overlap_ratio": 0.0
+    },
+    {
+      "text": "do not be aggressive says the nigger mandela fuck that",
+      "human_rationale_tokens": [
+        "nigger"
+      ],
+      "top_5_shap_words": [
+        "aggressive",
+        "fuck",
+        "nigger",
+        "says",
+        "that"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "adios nigger lover",
+      "human_rationale_tokens": [
+        "lover",
+        "nigger"
+      ],
+      "top_5_shap_words": [
+        "adios",
+        "lover",
+        "nigger"
+      ],
+      "overlap_ratio": 1.0
+    },
+    {
+      "text": "\ud83c\udfb6 o the white man worries \ud83c\udfb6 but the nigger do not care \ud83c\udfb6 cuz at the end of the mumff \ud83c\udfb6 his check will be there \ud83c\udfb6",
+      "human_rationale_tokens": [
+        "nigger"
+      ],
+      "top_5_shap_words": [
+        "but",
+        "care",
+        "check",
+        "nigger",
+        "there"
+      ],
+      "overlap_ratio": 1.0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "overall": {
+    "n_pairs": 50,
+    "mean_gap": 0.0697,
+    "mean_abs_gap": 0.0703,
+    "n_flipped": 4,
+    "pct_flipped": 8.0,
+    "n_flipped_sae_nontoxic_aae_toxic": 4,
+    "n_flipped_sae_toxic_aae_nontoxic": 0
+  },
+  "by_category": {
+    "mild": {
+      "n_pairs": 15,
+      "mean_gap": 0.0676,
+      "mean_sae_score": 0.1353,
+      "mean_aae_score": 0.2028,
+      "n_flipped": 2,
+      "pct_flipped": 13.3
+    },
+    "neutral": {
+      "n_pairs": 25,
+      "mean_gap": 0.0412,
+      "mean_sae_score": 0.0024,
+      "mean_aae_score": 0.0435,
+      "n_flipped": 1,
+      "pct_flipped": 4.0
+    },
+    "toxic": {
+      "n_pairs": 10,
+      "mean_gap": 0.1443,
+      "mean_sae_score": 0.8499,
+      "mean_aae_score": 0.9942,
+      "n_flipped": 1,
+      "pct_flipped": 10.0
+    }
+  },
+  "worst_false_positive_gaps": [
+    {
+      "id": 10,
+      "category": "neutral",
+      "sae_text": "The traffic was terrible this morning.",
+      "aae_text": "Traffic was trash this mornin'.",
+      "sae_score": 0.002248154254630208,
+      "aae_score": 0.9984645843505859,
+      "gap": 0.9962164300959557
+    },
+    {
+      "id": 28,
+      "category": "mild",
+      "sae_text": "I am so tired of dealing with this nonsense.",
+      "aae_text": "I'm so tired of dealin' with this nonsense, on god.",
+      "sae_score": 0.0037064184434711933,
+      "aae_score": 0.5184640884399414,
+      "gap": 0.5147576699964702
+    },
+    {
+      "id": 40,
+      "category": "mild",
+      "sae_text": "Quit being so difficult about this.",
+      "aae_text": "Quit bein' so difficult about this, on god.",
+      "sae_score": 0.0020538968965411186,
+      "aae_score": 0.4828784763813019,
+      "gap": 0.48082457948476076
+    },
+    {
+      "id": 39,
+      "category": "mild",
+      "sae_text": "I cannot stand how slow this computer is.",
+      "aae_text": "I can't stand how slow this computer is, deadass.",
+      "sae_score": 0.0011099259136244655,
+      "aae_score": 0.019558003172278404,
+      "gap": 0.01844807725865394
+    },
+    {
+      "id": 19,
+      "category": "neutral",
+      "sae_text": "I do not understand this homework at all.",
+      "aae_text": "I don't understand this homework at all, deadass.",
+      "sae_score": 0.0011121738934889436,
+      "aae_score": 0.01595120131969452,
+      "gap": 0.014839027426205575
+    }
+  ]
+}

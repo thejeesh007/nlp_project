@@ -1,0 +1,51 @@
+id,category,intended_toxic,sae_text,aae_text,sae_score,aae_score,gap,sae_pred,aae_pred,flipped,sae_threshold_dialect,aae_threshold_dialect,sae_pred_dialect,aae_pred_dialect,flipped_dialect
+1,neutral,0,It is raining very hard today.,It be rainin' real hard today.,0.003166563343256712,0.0018826848827302456,-0.0012838784605264664,0,0,False,0.6,0.6,0,0,False
+2,neutral,0,She is always tired after work.,She be tired after work.,0.003954014275223017,0.002778566675260663,-0.0011754475999623537,0,0,False,0.6,0.6,0,0,False
+3,neutral,0,I have not eaten anything since morning.,I ain't ate nothing since morning.,0.0015027906047180295,0.0017913969932124019,0.00028860638849437237,0,0,False,0.6,0.6,0,0,False
+4,neutral,0,I am going to the store later.,I'm finna go to the store later.,0.0011609198991209269,0.0014446595450863242,0.00028373964596539736,0,0,False,0.6,0.6,0,0,False
+5,neutral,0,My grandmother makes the best food.,My grandma be makin' the best food.,0.001467971596866846,0.0036852816119790077,0.0022173100151121616,0,0,False,0.6,0.6,0,0,False
+6,neutral,0,We are going to the party tonight.,We finna pull up to the party tonight.,0.0020356576424092054,0.0019297171384096146,-0.00010594050399959087,0,0,False,0.6,0.6,0,0,False
+7,neutral,0,He has been studying all week for the exam.,He been studyin' all week for the exam.,0.0015679904026910663,0.0018301211530342698,0.00026213075034320354,0,0,False,0.6,0.6,0,0,False
+8,neutral,0,My boss is always late to meetings.,My boss be late to meetings.,0.0020448307041078806,0.0018780786776915193,-0.00016675202641636133,0,0,False,0.6,0.6,0,0,False
+9,neutral,0,They are really close friends.,"They be real close, no cap.",0.001526326290331781,0.0018216875614598393,0.00029536127112805843,0,0,False,0.6,0.6,0,0,False
+10,neutral,0,The traffic was terrible this morning.,Traffic was trash this mornin'.,0.0025750247295945883,0.9955377578735352,0.9929627331439406,0,1,True,0.6,0.6,0,1,True
+11,neutral,0,I am trying to learn how to cook.,I'm tryna learn how to cook.,0.0010793437249958515,0.001974803162738681,0.0008954594377428293,0,0,False,0.6,0.6,0,0,False
+12,neutral,0,It gets really cold in the winter here.,It get real cold out here in the winter.,0.02833591215312481,0.04106180742383003,0.012725895270705223,0,0,False,0.6,0.6,0,0,False
+13,neutral,0,My brother and I do not agree about anything.,Me and my brother don't agree on nothing.,0.000899911392480135,0.0009719785302877426,7.206713780760765e-05,0,0,False,0.6,0.6,0,0,False
+14,neutral,0,I have been going to the gym every day.,I been hittin' the gym every day.,0.0015689063584432006,0.003170130541548133,0.0016012241831049323,0,0,False,0.6,0.6,0,0,False
+15,neutral,0,This store never has what I need.,This store never got what I need.,0.001248225918971002,0.0011589835630729795,-8.924235589802265e-05,0,0,False,0.6,0.6,0,0,False
+16,neutral,0,I did not hear about that.,I ain't hear about that.,0.0010119775542989373,0.0015823841094970703,0.000570406555198133,0,0,False,0.6,0.6,0,0,False
+17,neutral,0,We are celebrating my mom's birthday this weekend.,We celebratin' my mama birthday this weekend.,0.0012772511690855026,0.0019652394112199545,0.0006879882421344519,0,0,False,0.6,0.6,0,0,False
+18,neutral,0,The bus is always late in the morning.,That bus always late in the mornin'.,0.0023713030386716127,0.03944344073534012,0.037072137696668506,0,0,False,0.6,0.6,0,0,False
+19,neutral,0,I do not understand this homework at all.,"I don't understand this homework at all, deadass.",0.0008456470095552504,0.012396703474223614,0.011551056464668363,0,0,False,0.6,0.6,0,0,False
+20,neutral,0,This is my favorite song right now.,"This my favorite song right now, on god.",0.001084080315195024,0.004445673432201147,0.003361593117006123,0,0,False,0.6,0.6,0,0,False
+21,neutral,0,I did not sleep well last night.,I ain't sleep good last night.,0.007219887804239988,0.026348164305090904,0.019128276500850916,0,0,False,0.6,0.6,0,0,False
+22,neutral,0,My cousins are visiting this weekend.,My cousins finna come through this weekend.,0.0009770669275894761,0.0010650326730683446,8.796574547886848e-05,0,0,False,0.6,0.6,0,0,False
+23,neutral,0,I am looking for a new job.,I'm tryna find a new job.,0.0011481227120384574,0.002008558716624975,0.0008604360045865178,0,0,False,0.6,0.6,0,0,False
+24,neutral,0,You did a great job on this project.,"You did that on this project, for real.",0.0008846325217746198,0.0007828965899534523,-0.00010173593182116747,0,0,False,0.6,0.6,0,0,False
+25,neutral,0,We should hang out sometime soon.,We should link up soon.,0.001609675120562315,0.0009331146138720214,-0.0006765605066902936,0,0,False,0.6,0.6,0,0,False
+26,mild,0,This app keeps freezing and it is really annoying.,This app keep freezin' and it's really annoyin'.,0.0021986241918057203,0.0010019527981057763,-0.001196671393699944,0,0,False,0.6,0.6,0,0,False
+27,mild,0,This customer service is terrible.,This customer service trash.,0.0028590778820216656,0.0037101316265761852,0.0008510537445545197,0,0,False,0.6,0.6,0,0,False
+28,mild,0,I am so tired of dealing with this nonsense.,"I'm so tired of dealin' with this nonsense, on god.",0.003979764878749847,0.5822765827178955,0.5782968178391457,0,0,False,0.6,0.6,0,0,False
+29,mild,0,I think you are wrong about this.,I think you trippin' about this.,0.0014056526124477386,0.001222822000272572,-0.0001828306121751666,0,0,False,0.6,0.6,0,0,False
+30,mild,0,That was a really smart decision.,That was a real smart decision.,0.001125779002904892,0.0011272254632785916,1.446460373699665e-06,0,0,False,0.6,0.6,0,0,False
+31,mild,0,Stop being so lazy and help me clean.,Stop bein' lazy and help me clean.,0.9941855072975159,0.9967010617256165,0.002515554428100586,1,1,False,0.6,0.6,1,1,False
+32,mild,0,You are acting really childish right now.,You actin' real childish right now.,0.991441011428833,0.9915689826011658,0.00012797117233276367,1,1,False,0.6,0.6,1,1,False
+33,mild,0,He never listens when I talk to him.,He never listen when I talk to him.,0.001731978845782578,0.0017377610784024,5.782232619822025e-06,0,0,False,0.6,0.6,0,0,False
+34,mild,0,This neighborhood has gotten so loud lately.,This block been so loud lately.,0.001137242536060512,0.0009050061926245689,-0.00023223634343594313,0,0,False,0.6,0.6,0,0,False
+35,mild,0,Your cooking needs a lot of work.,Yo cookin' need a lot of work.,0.0012153987772762775,0.003949884325265884,0.002734485547989607,0,0,False,0.6,0.6,0,0,False
+36,mild,0,"Can you please hurry up, we are late.","Can you hurry up, we late, for real.",0.0018606934463605285,0.0012202964862808585,-0.00064039696007967,0,0,False,0.6,0.6,0,0,False
+37,mild,0,You are being really dramatic about this.,You bein' real extra about this.,0.001521101570688188,0.0026339415926486254,0.0011128400219604373,0,0,False,0.6,0.6,0,0,False
+38,mild,0,This professor never explains anything clearly.,This professor never explain nothing clearly.,0.0008276192238554358,0.0008872074540704489,5.958823021501303e-05,0,0,False,0.6,0.6,0,0,False
+39,mild,0,I cannot stand how slow this computer is.,"I can't stand how slow this computer is, deadass.",0.0010046149836853147,0.02772332914173603,0.026718714158050716,0,0,False,0.6,0.6,0,0,False
+40,mild,0,Quit being so difficult about this.,"Quit bein' so difficult about this, on god.",0.00147020083386451,0.023526009172201157,0.022055808338336647,0,0,False,0.6,0.6,0,0,False
+41,toxic,1,"You are such an idiot, I cannot believe you did that.","You such an idiot, I can't believe you did that.",0.998884379863739,0.9989190101623535,3.463029861450195e-05,1,1,False,0.6,0.6,1,1,False
+42,toxic,1,"Shut up, nobody wants to hear what you have to say.","Shut up, ain't nobody wanna hear what you gotta say.",0.9893931150436401,0.996562659740448,0.007169544696807861,1,1,False,0.6,0.6,1,1,False
+43,toxic,1,You better watch your mouth before you regret it.,You better watch yo mouth before you regret it.,0.008009171113371849,0.34632617235183716,0.3383170012384653,0,0,False,0.6,0.6,0,0,False
+44,toxic,1,"You are so stupid, it is honestly embarrassing.","You so stupid, it's honestly embarrassin'.",0.9986913800239563,0.9989526271820068,0.0002612471580505371,1,1,False,0.6,0.6,1,1,False
+45,toxic,1,"I do not respect you at all, you are pathetic.","I don't respect you at all, you pathetic.",0.9988107681274414,0.9988774657249451,6.669759750366211e-05,1,1,False,0.6,0.6,1,1,False
+46,toxic,1,"Nobody even likes you, stop pretending they do.","Ain't nobody even like you, stop actin' like they do.",0.1374504417181015,0.9619809985160828,0.8245305567979813,0,1,True,0.6,0.6,0,1,True
+47,toxic,1,Get out of my face before I lose my temper.,Get out my face before I lose my temper.,0.9737470746040344,0.6226758360862732,-0.35107123851776123,1,1,False,0.6,0.6,1,1,False
+48,toxic,1,You are a complete waste of everyone's time.,You a complete waste of everybody time.,0.9975423812866211,0.998166561126709,0.0006241798400878906,1,1,False,0.6,0.6,1,1,False
+49,toxic,1,I am so sick of your pathetic excuses.,I'm so sick of yo pathetic excuses.,0.9984216690063477,0.9986452460289001,0.00022357702255249023,1,1,False,0.6,0.6,1,1,False
+50,toxic,1,Nobody asked for your stupid opinion.,Ain't nobody ask for yo stupid opinion.,0.9987327456474304,0.9988916516304016,0.0001589059829711914,1,1,False,0.6,0.6,1,1,False

@@ -1,0 +1,28 @@
+Loaded 50 AAE/SAE pairs ({'neutral': np.int64(25), 'mild': np.int64(15), 'toxic': np.int64(10)})
+Model: /home/thejeeshgopi/Documents/My_projects/nlp_project/src/../models/distilbert-toxicity
+Using classification threshold: 0.95 (from /home/thejeeshgopi/Documents/My_projects/nlp_project/src/../results/metrics.json tuned_threshold)
+Loading weights:   0%|          | 0/104 [00:00<?, ?it/s]Loading weights: 100%|██████████| 104/104 [00:00<00:00, 12017.07it/s]
+Saved per-pair results to /home/thejeeshgopi/Documents/My_projects/nlp_project/src/../results/fairness_results.csv
+
+=== Overall ===
+  n_pairs: 50
+  mean_gap: 0.0576
+  mean_abs_gap: 0.101
+  n_flipped: 5
+  pct_flipped: 10.0
+  n_flipped_sae_nontoxic_aae_toxic: 4
+  n_flipped_sae_toxic_aae_nontoxic: 1
+
+=== By category ===
+  mild (n=15): mean gap=+0.0731  (SAE avg=0.133, AAE avg=0.206)  flipped=2/15 (13.3%)
+  neutral (n=25): mean gap=+0.0803  (SAE avg=0.001, AAE avg=0.081)  flipped=2/25 (8.0%)
+  toxic (n=10): mean gap=-0.0222  (SAE avg=0.994, AAE avg=0.972)  flipped=1/10 (10.0%)
+
+=== Largest AAE-scored-more-toxic gaps among non-toxic pairs ===
+  [neutral] gap=+0.999  SAE=0.000 'I do not understand this homework at all.'  |  AAE=0.999 'I don't understand this homework at all, deadass.'
+  [mild] gap=+0.998  SAE=0.001 'I cannot stand how slow this computer is.'  |  AAE=0.999 'I can't stand how slow this computer is, deadass.'
+  [neutral] gap=+0.995  SAE=0.000 'The traffic was terrible this morning.'  |  AAE=0.996 'Traffic was trash this mornin'.'
+  [mild] gap=+0.947  SAE=0.052 'This customer service is terrible.'  |  AAE=0.999 'This customer service trash.'
+  [neutral] gap=+0.005  SAE=0.000 'My grandmother makes the best food.'  |  AAE=0.005 'My grandma be makin' the best food.'
+
+Saved summary to /home/thejeeshgopi/Documents/My_projects/nlp_project/src/../results/fairness_summary.json

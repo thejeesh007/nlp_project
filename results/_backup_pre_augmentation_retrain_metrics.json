@@ -1,0 +1,41 @@
+{
+  "threshold_used_for_confusion_matrix": 0.95,
+  "default_threshold_0.5": {
+    "test_accuracy": 0.966557911908646,
+    "test_precision": 0.8243727598566308,
+    "test_recall": 0.8523780111179741,
+    "test_f1": 0.8381415122988156
+  },
+  "tuned_threshold": {
+    "threshold": 0.95,
+    "test_accuracy": 0.9673108294641737,
+    "test_precision": 0.8457178841309824,
+    "test_recall": 0.8295243977764052,
+    "test_f1": 0.8375428749610228
+  },
+  "confusion_matrix": [
+    [
+      14074,
+      245
+    ],
+    [
+      276,
+      1343
+    ]
+  ],
+  "class_weights": [
+    0.5565406084060669,
+    4.921601295471191
+  ],
+  "n_train": 127499,
+  "n_val": 15937,
+  "n_test": 15938,
+  "trained_on": "full dataset, Google Colab T4 GPU",
+  "dialect_thresholds": {
+    "marked_threshold": 0.95,
+    "unmarked_threshold": 0.95,
+    "n_marked": 92,
+    "n_unmarked": 15845
+  },
+  "dialect_thresholds_calibrated_posthoc": true
+}

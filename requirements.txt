@@ -1,0 +1,9 @@
+datasets
+pandas
+scikit-learn
+matplotlib
+huggingface_hub
+torch
+transformers
+shap
+gradio
